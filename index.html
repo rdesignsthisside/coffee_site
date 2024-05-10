@@ -6,21 +6,30 @@
     <title>Coffee Site</title>
 
 
-    <link rel="icon" type="image/x-icon" href="/images/fav.png">
-    <meta property="og:image" content="/images/fav.png"/>
+    <!-- Google Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 
+    <!-- Swiper Slider CSS Link -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Custom CSS Link -->
 
     <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 
+
+
+
     <header>
+
+
+        <!-- mobile menu -->
 
         <div class="mob_menu">
 
@@ -96,7 +105,14 @@
     </header>
 
 
+    <!-- desktop menu -->
+
     <main>
+
+
+
+        <!-- Top image with text section -->
+
 
         <div class="home-top-banner">
 
@@ -115,6 +131,8 @@
 
 
 
+        <!-- Text with Image Section 2 -->
+
         <div class="home-second-section head-left-img-right">
 
             <div class="content-box">
@@ -130,7 +148,14 @@
         </div>
 
 
+
+        <!-- 3rd Long Section -->
+
+
         <div class="home-mid-lg-section">
+
+
+            <!-- Text with Image Section 3 -->
 
             <div class="home-mid-1 img-left-head-right">
 
@@ -150,6 +175,8 @@
 
             </div>
 
+
+            <!-- Text with Image Section 4 -->
 
 
 
@@ -172,6 +199,9 @@
             </div>
 
 
+            <!-- Voucher Section -->
+
+
 
             <div class="home-mid-3 home-mid-voucher">
 
@@ -180,6 +210,10 @@
                 <a href="" class="order-btn">Get Voucher Now</a>
 
             </div>
+
+
+            <!-- Review Section -->
+
 
             <div class="home-mid-4 home-review">
 
@@ -268,6 +302,8 @@
         </div>
 
 
+        <!-- Open Info Section  -->
+
 
         <div class="home-open-section">
 
@@ -289,6 +325,9 @@
 
         </div>
 
+
+
+        <!-- Brandches Section -->
 
 
         <div class="home-branches">
@@ -398,8 +437,12 @@
 
 
 
+
+    <!-- Footer Section -->
+
     <footer>
 
+        
         <div class="footer-logo">
             <img src="./Images/Logo.png" alt="">
         </div>
@@ -504,12 +547,19 @@
 
 
 
+    <!-- Scripts CDN's -->
+
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
+    <!-- Custom Scripts -->
+
     <script>
         
+
+        // Branch Swiper Slider Script
 
         var branchSwiper = new Swiper(".branches-tiles", {
             slidesPerView: 3,
@@ -538,7 +588,10 @@
             },
         });
 
-        var branchSwiper = new Swiper(".review-boxes", {
+
+         // Review Swiper Slider Script
+
+        var reviewSwiper = new Swiper(".review-boxes", {
             slidesPerView: 2,
             spaceBetween: 60,
             breakpoints: {
@@ -564,6 +617,11 @@
                 disableOnInteraction: false,
             },
         });
+
+
+
+
+        // Menu Toggle Script
 
 
         $(document).ready(function(){
