@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: #222831;
+    overflow-x: hidden;
 }
 
 * {
@@ -25,6 +26,7 @@ p, div, a {
 }
 
 
+/* Header CSS */
 
 header {
     width: 100%;
@@ -91,6 +93,13 @@ header  a.brand-logo {
 header  a.brand-logo img {
     width: 100%;
 }
+
+
+
+
+
+/* Homepage CSS */
+
 
 
 .home-top-banner {
@@ -564,17 +573,7 @@ a.order-btn.grey-btn {
     text-align: center;
 }
 
-
-/* .home-branches .branches-tiles {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 .home-branches .branches-tiles .branch-box {
-    /* width: 30%;
-    display: flex;
-    flex-direction: column; */
     text-align: center;
 }
 
@@ -608,6 +607,10 @@ a.order-btn.grey-btn {
     max-width: 90%;
     margin: 0 auto;
 }
+
+
+
+/* Footer CSS */
 
 footer {
     display: flex;
@@ -680,6 +683,10 @@ footer .bottom-footer .footer-social-links {
 }
 
 
+
+/* Small Screen CSS */
+
+
 @media (max-width: 1330px) {
 
     .home-top-banner {
@@ -714,6 +721,9 @@ footer .bottom-footer .footer-social-links {
 
 }
 
+
+
+/* Tab & Mobile CSS */
 
 
 @media (max-width: 900px) {
@@ -1036,7 +1046,7 @@ footer .bottom-footer .footer-social-links {
 
 
 
-
+/* Mobile CSS */
 
 
 @media (max-width: 768px) {
